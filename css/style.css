@@ -102,8 +102,6 @@ h4:hover {
     color: #b59f5b;
 }
 
-/* ============================ DESKTOP ============================ */
-
 
 /* ============================ HEADER */
 .header {
@@ -157,7 +155,7 @@ h4:hover {
 }
 
 .menu__button-label,
-.menu__button {
+.menu__button  {
     display: none;
 }
 
@@ -590,11 +588,14 @@ h4:hover {
 }
 
 .product_preview {
-    width: 100%px;
-    height: 100%px;
     background-color: #eff6f1;
     margin-right: auto;
     margin-left: auto;
+}
+
+.product_img {
+    width: 100%;
+    height: 100%;
 }
 
 .product_body {
@@ -745,7 +746,7 @@ h4:hover {
 
 /* ======================== TABLET ====================== */
 
-@media (min-wight: 768px) and (max-wight: 1199px) {
+@media (min-width: 768px) and (max-width: 1199px) {
     /* ===== только измененный код ===== */
 
     /* ======================== COMMON */
@@ -768,6 +769,7 @@ h4:hover {
 
 
     /* ============================ HEADER */
+
     .header {
       padding: 43px 0;
       background-image: url(../images/banner-bg-tablet.jpg);
@@ -788,6 +790,7 @@ h4:hover {
     }
 
     .menu__button {
+        display: block;
       width: 1.5em;
       height: 1.25em;
       border: none;
@@ -799,6 +802,7 @@ h4:hover {
       text-indent: -9999px;
       cursor: pointer;
     }
+
     .menu__button:before, 
     .menu__button:after {
       content: "";
@@ -809,14 +813,17 @@ h4:hover {
       position: absolute;
       left: 0;
     }
+
     .menu__button:after {
       bottom: 0;
     }
+
     .menu__button:before {
       top: 0;
     }
 
     .menu__button-label {
+        display: block;
       width: 100%;
       height: 15%;
       margin-top: -0.1em;
@@ -842,6 +849,7 @@ h4:hover {
     }
 
     /* ============================ CONTAINER */
+
     .container {
       /*margin-top: 46px;*/
       margin-top: 2.9rem;
@@ -869,22 +877,23 @@ h4:hover {
       padding: 0 19px 15px;
     }
 
+    .trend:nth-child(odd) {
+      /*margin-right: 4px;*/
+      margin-right: 0.25rem;
+    }
+
+    .trend:nth-child(n+3) {
+      margin-top: 0.25rem;
+    }
+
+    .trend:not(:first-child) {
+        /* margin-left: 4px; */
+        margin-left: 0;
+    }
+
     .trend_info {  
       padding-bottom: 31px;
       padding-left: 31px;
-    }
-
-    .trend_garden {
-      margin-right: 0.25%;
-      margin-bottom: 0.25%;
-    }
-
-    .trend_cheese {
-      margin-bottom: 0.25%;
-    }
-
-    .trend_hike {
-      margin-right: 0.25%;
     }
 
     /*.trend::before {
@@ -902,6 +911,7 @@ h4:hover {
 
 
     /* ============================ MAIN */
+
     .news_block {
       /*margin-right: 35px;*/
       margin-right: 2.2rem;
@@ -933,6 +943,7 @@ h4:hover {
     .news_info {
       /*margin-top: 10px;*/
       margin-top: 0.5rem;
+      padding-left: 0;
     }
 
     .category-list {
@@ -1004,6 +1015,10 @@ h4:hover {
       margin-top: 1.75rem;
     }
 
+    .product:not(:first-child) {
+        margin-left: 0;
+    }
+
     .product_description {
       padding-top: 8px;
     }
@@ -1032,6 +1047,7 @@ h4:hover {
       width: 1.25rem;
       height: 1.25rem;
     }
+
 
 }
 
