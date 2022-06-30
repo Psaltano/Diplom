@@ -8,6 +8,53 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+  <div class="feedback"> <!--   фитбек -->
+    <input type="checkbox" id="popup1" class="popup_hidden">
+    <div class="popup"> <!-- попап -->
+      <label for="popup1" class="background_hidden"></label>
+      <div class="popup_content">
+        <label for="popup1" class="popup_close"></label>
+        <input type="hidden" value="form_popup" class="visually-hidden">
+        <h2 class="popup_title">Ваш фидбек</h2>
+        <form class="form_popup">
+          <div class="form-group popup_form-frequency"> <!-- частота -->
+            <label class="frequency-label">
+              <span class="hint">Как часто вы заходите на сайт?</span>
+              <select class="select frequency_select">
+                <option value="Almost every day" selected>Почти каждый день</option>
+                <option value="Once every few days">Раз в несколько дней</option>
+                <option value="Once every few weeks">Раз в несколько недель</option>
+                <option value="Several times a year">Несколько раз в год</option>
+              </select>
+            </label>
+          </div> 
+          <div class="form-group popup_form-radio"> <!-- радио кнопки -->
+            <label class="radio-label">
+              <span class="hint">Вы подписаны на e-mail рассылку?</span>  
+              <label class="radio-group">
+                <input type="radio" class="radio" name="radio-group" checked>
+                <span class="radio-group-text">Да</span>
+              </label>
+              <label class="radio-group">
+                <input type="radio" class="radio" name="radio-group">
+                <span class="radio-group-text">Нет</span>
+              </label>
+            </label>
+          </div> 
+          <div class="form-group popup_form-categories"> <!-- какие темы -->
+            <label class="categories-label">
+              <span class="hint">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>  
+              <textarea class="select categories_text" placeholder="Может, больше рецептов?"></textarea>
+            </label>
+          </div> 
+          <div class="form-group popup_form-button"> <!-- кнопка -->
+            <button class="popup-button" type="submit">Отправить</button>
+          </div> 
+        </form>
+      </div>
+    </div> <!-- попап -->
+    <label for="popup1" class="batton_hidden">Открыть окно</label><!--   фитбек -->
+  </div>
   <header class="header"> <!--   шапка и меню -->
     <div class="wrapper header-wrapper">
       <div class="menu">
