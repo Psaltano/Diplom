@@ -17,7 +17,7 @@
         <input type="hidden" value="form_popup" class="visually-hidden">
         <h2 class="popup_title">Ваш фидбек</h2>
         <form class="form_popup">
-          <div class="form-group popup_form-frequency"> <!-- частота -->
+          <div class="form-group-first popup_form-frequency"> <!-- частота -->
             <label class="frequency-label">
               <span class="hint">Как часто вы заходите на сайт?</span>
               <select class="select frequency_select">
@@ -66,7 +66,7 @@
             <span class="menu__button-label">Открыть меню</span>
           </button>
           <ul class="menu_list">
-            <li class="menu_item">
+            <li class="menu_item-first">
               <a href="#" class="menu_link">Главная</a>
             </li>
             <li class="menu_item">
@@ -95,7 +95,7 @@
         <section class="trends">
           <h2 class="trends_title">Сейчас в тренде</h2>
           <div class="trends_block">
-            <article class="trend trend_garden"> <!-- 1тренд -->
+            <article class="trend trend_garden trend-odd"> <!-- 1тренд -->
               <div class="trend_info">
                 <ul class="category-list">
                   <li class="category-item">
@@ -118,7 +118,7 @@
                 <h4 class="trend_title">Сыры на красивых картинках из интернета: какие они на вкус?</h4> 
               </div> 
             </article> <!-- 2тренд -->
-            <article class="trend trend_hike"> <!-- 3тренд -->
+            <article class="trend trend_hike trend-odd"> <!-- 3тренд -->
               <div class="trend_info">
                 <ul class="category-list">
                   <li class="category-item">
@@ -149,7 +149,7 @@
       </div> <!--   тренды -->
     <div class="container-wrapper"> <!--   колонки -->
       <main class="news_block"> <!-- блок новостей -->
-        <article class="news"> <!-- 1карточка с новостью -->
+        <article class="news news-first"> <!-- 1карточка с новостью -->
           <figure class="news_preview">
             <img src="images/last-post1.jpg" alt="пляж" class="news_image" width="381">
           </figure>
@@ -243,7 +243,7 @@
             </div> 
           </div> 
         </article> <!-- 4карточка с новостью -->
-        <article class="news"> <!-- 5карточка с новостью -->
+        <article class="news news-last"> <!-- 5карточка с новостью -->
           <figure class="news_preview">
             <img src="images/last-post5.jpg" alt="подушка" class="news_image" width="381">
           </figure>
@@ -274,7 +274,7 @@
         <section class="posts"> <!-- новые посты -->
           <h3 class="posts_title">Новые посты</h3>
           <div class="posts_blok"> <!-- колонка с постами -->
-            <article class="post"> <!-- 1пост -->
+            <article class="post post-first"> <!-- 1пост -->
               <figure class="post_preview">
                 <img src="images/2.jpg" alt="пляж" class="post_image" width="70">
               </figure>
@@ -412,7 +412,7 @@
       <div class="shop-wrapper">
         <h2 class="trends_title">Наши изделия</h2>
         <div class="products">
-          <article class="product"> <!--   1изделие -->
+          <article class="product product-odd product-first"> <!--   1изделие -->
             <picture class="product_preview">
               <source srcset="images/shop-item-desk1.jpg" media="(min-width: 1200px)">
               <source srcset="images/shop-item-tablet1.jpg" media="(max-width: 1199px)">
@@ -470,7 +470,7 @@
               </footer>
             </div>
           </article> <!--   2изделие -->
-          <article class="product"> <!--   3изделие -->
+          <article class="product product-odd"> <!--   3изделие -->
             <picture class="product_preview">
               <source srcset="images/shop-item-desk3.jpg" media="(min-width: 1200px)">
               <source srcset="images/shop-item-tablet3.jpg" media="(max-width: 1199px)">
@@ -507,7 +507,7 @@
     <div class="footer-wrapper">
       <address class="social">
         <ul class="social_list">
-          <li class="social_item">
+          <li class="social_item social_item-first">
             <a href="#" class="social_icon social_icon_dribbble"></a>
           </li>
           <li class="social_item">
