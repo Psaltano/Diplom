@@ -116,7 +116,6 @@ h4:hover {
 }
 
 .popup {
-    position: fixed;
     width: 100%;
     height: 100%;
     top: 0;
@@ -126,26 +125,31 @@ h4:hover {
     display: none;
     justify-content: center;
     align-items: center;
+
+    position: fixed;
+    z-index: 3;
 }
 
 .background_hidden {
-    position: absolute;
     width: 100%;
     height: 100%;
     left: 0;
     top: 0;
-    z-index: 3;
+
+    position: absolute;
+    z-index: 4;
 }
 
 .popup_content {
-    position: relative;
     background-color: #fff;
     box-sizing: border-box;
     max-width: 390px;
     padding: 30px;
     margin-left: 15px;
     margin-right: 15px;
-    z-index: 4;
+
+    position: relative;
+    z-index: 5;
 }
 
 .popup_close {
@@ -302,7 +306,6 @@ h4:hover {
 .header {
     background-color: #000000;
     box-sizing: border-box;
-    position: relative;
     padding: 30px 0;
     min-height: 450px;
 
@@ -310,27 +313,27 @@ h4:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    position: relative;
     /* z-index: 0;*/ 
-    z-index: ; 
 }
 
 .header::before {
     content: "";
     display: block;
     background-color: #000000;
-    position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     opacity: 0.6;
-    /* z-index: 1;*/ 
+
+    position: absolute;
     z-index: 1; 
 }
 
 .wrapper {
     position: relative;
-    /* z-index: 1;*/ 
     z-index: 1; 
 }
 
@@ -430,7 +433,21 @@ h4:hover {
 
     position: relative;
     /* z-index: 0; */ 
-    z-index: ; 
+}
+
+.trend::before {
+    content: "";
+    display: block;
+
+    background-color: #000000;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.4;
+
+    position: absolute;
+    z-index: 1;
 }
 
 .trend:not(:first-child) {
@@ -442,7 +459,7 @@ h4:hover {
     padding: 33px;
     border: 3px solid #b59f5b;
 
-    /* z-index: 1; */ 
+    position: relative;
     z-index: 1;
 }
 
@@ -465,21 +482,6 @@ h4:hover {
 .trend_lemon {
     background-image: url(../images/trend4.jpg);
  
-}
-
-.trend::before {
-    content: "";
-    display: block;
-    position: absolute;
-
-    background-color: #000000;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.4;
-    /* z-index: 1; */ 
-    z-index: 1;
 }
 
 /* ============================ MAIN */
