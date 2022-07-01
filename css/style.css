@@ -226,11 +226,11 @@ h4:hover {
     margin-top: 1.6rem;
 }*/
 
-.form-group {
+.form_group {
     margin-top: 1.6rem;
 }
 
-.form-group-first {
+.form_group-first {
     margin-top: 0;
 }
 
@@ -241,13 +241,13 @@ h4:hover {
     background-position: right 5px center;
 }
 
-.radio-group {
+.radio_group {
     display: inline-block;
     font-size: 0.8rem;
     color: #000000;
 }
 
-.radio-group:nth-of-type(n+2) {
+.radio_group:nth-of-type(n+2) {
     margin-left: 1rem;
 }
 
@@ -255,11 +255,11 @@ h4:hover {
     display: none;
 }
 
-.radio:checked + .radio-group-text::before {
+.radio:checked + .radio_group-text::before {
     background-image: url(../svg/form-circle.svg);
 }
 
-.radio-group-text::before {
+.radio_group-text::before {
     content: "";
     display: inline-block;
     vertical-align: middle;
@@ -287,7 +287,7 @@ h4:hover {
     color: #000000;
 }
 
-.popup-button {
+.popup_button {
     /*font-family: "OpenSans bold", sans-serif;*/
     width: 100%;
     height: 3.7em;
@@ -304,7 +304,7 @@ h4:hover {
     cursor: pointer;
 }
 
-.popup-button:hover {
+.popup_button:hover {
     background-color: #323232;
 }
 
@@ -525,7 +525,7 @@ h4:hover {
     padding-left: 30px;
 }
 
-.category-list {
+.category_list {
     /*font-family: "OpenSans bold", sans-serif;*/
 
     display: flex;
@@ -534,7 +534,7 @@ h4:hover {
     padding-bottom: 15px;
 }
 
-.category-link {
+.category_link {
     padding-right: 20px;
     font-size: 0.9rem;
     line-height: 1.6;
@@ -542,7 +542,7 @@ h4:hover {
     text-transform: uppercase;
 }
 
-.category-link:hover {
+.category_link:hover {
     text-decoration: underline;
 }
 
@@ -652,22 +652,11 @@ h4:hover {
     background-color: #323232;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-.mailing-list {
+.mailing_list {
     margin-bottom: 1.88rem;
 }
 
-.mailing-list_field {
+.mailing_list_field {
     width: 100%;
     height: 3.7em;
     background-color: #f4f7f6;
@@ -679,11 +668,11 @@ h4:hover {
     line-height: 3;
 }
 
-.mailing-list_field:focus {
+.mailing_list_field:focus {
     outline: 1px solid #b59f5b;
 }
 
-.mailing-list_button {
+.mailing_list_button {
     /*font-family: "OpenSans bold", sans-serif;*/
     width: 100%;
     height: 3.7em;
@@ -701,7 +690,7 @@ h4:hover {
     cursor: pointer;
 } 
 
-.mailing-list_button:hover {
+.mailing_list_button:hover {
     background-color: #323232;
 }
 
