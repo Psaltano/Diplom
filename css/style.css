@@ -1,17 +1,15 @@
 
-/* ======================== DESKTOP ====================== */
+/* ====================== DESKTOP ====================== */
 
-/* ======================== COMMON */
+/* ====================== COMMON */
 
 @font-face {
-    /*font-family: "OpenSans bold";*/
     src: url(../fonts/OpenSans-Bold.ttf);
     font-family: "OpenSans";
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
-    /*font-family: "OpenSans regular";*/
     src: url(../fonts/OpenSans-Regular.ttf);
     font-family: "OpenSans";
     font-weight: regular;
@@ -19,7 +17,6 @@
 }
 
 body {
-    /*font-family: "OpenSans bold", sans-serif;*/
     margin: 0;
     font-family: "OpenSans";
     font-weight: regular;
@@ -50,7 +47,6 @@ p {
 }
 
 h2 {
-    /*font-family: "OpenSans bold", sans-serif;*/
     font-family: "OpenSans";
     font-weight: bold;
     font-size: 1.25rem;
@@ -72,10 +68,9 @@ h2::after {
 }
 
 h3 {
-    /*font-family: "OpenSans bold", sans-serif;*/
     font-family: "OpenSans";
     font-weight: bold;
-    font-size: 0.875rem;
+    font-size: 0.87rem;
     line-height: 2;
     color: #0f0d0e;
     text-transform: uppercase;
@@ -95,12 +90,11 @@ h3::after {
 }
 
 h4 {
-    /*font-family: "OpenSans bold", sans-serif;*/
     font-family: "OpenSans";
     font-weight: bold;
     font-size: 1.25rem;
-    text-transform: uppercase;
     line-height: 1.2;
+    text-transform: uppercase;
     margin: 0;
 }
 
@@ -110,7 +104,7 @@ h4:hover {
 
 
 
-/* =============== POPUP */
+/* ====================== POPUP */
 
 .popup_hidden {
     display: none;
@@ -150,8 +144,8 @@ h4:hover {
     box-sizing: border-box;
     max-width: 390px;
     padding: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 0.93rem;
+    margin-right: 0.93rem;
 
     position: relative;
     z-index: 5;
@@ -222,12 +216,8 @@ h4:hover {
     outline: 1px solid #b59f5b;
 }
 
-/*.form-group:not(:first-child) {
-    margin-top: 1.6rem;
-}*/
-
 .form_group {
-    margin-top: 1.6rem;
+    margin-top: 1.56rem;
 }
 
 .form_group-first {
@@ -288,7 +278,6 @@ h4:hover {
 }
 
 .popup_button {
-    /*font-family: "OpenSans bold", sans-serif;*/
     width: 100%;
     height: 3.7em;
 
@@ -297,7 +286,7 @@ h4:hover {
 
     font-family: "OpenSans";
     font-weight: bold;
-    font-size: 0.88rem;
+    font-size: 0.87rem;
     text-transform: uppercase;
     color: #ffffff;
 
@@ -308,7 +297,7 @@ h4:hover {
     background-color: #323232;
 }
 
-/* ============================ HEADER */
+/* ====================== HEADER */
 
 .header {
     background-color: #000000;
@@ -344,7 +333,7 @@ h4:hover {
 }
 
 .header-wrapper {
-    width: 100vw;
+    width: 100%;
     padding: 0 15px;
     margin: auto;
 }
@@ -368,12 +357,8 @@ h4:hover {
     display: none;
 }
 
-/*.menu_item:not(:first-child) {
-    margin-left: 35px;
-}*/
-
 .menu_item {
-    margin-left: 2.2rem;
+    margin-left: 2.18rem;
 }
 
 .menu_item-first {
@@ -382,7 +367,7 @@ h4:hover {
 
 .menu_link {
     color: white;
-    font-size: 13px;
+    font-size: 0.8rem;
     text-transform: uppercase;
 }
 
@@ -391,10 +376,9 @@ h4:hover {
 }
 
 .header_title {
-    /*font-family: "OpenSans bold", sans-serif;*/
     font-family: "OpenSans";
     font-weight: bold;
-    font-size: 2.8rem;
+    font-size: 2.81rem;
     line-height: 1.7;
     text-transform: uppercase;
     text-align: center;
@@ -405,7 +389,7 @@ h4:hover {
     color: #fff;
 }
 
- /* ============================ CONTAINER */
+ /* ====================== CONTAINER */
 
 .container {
     background-color: #ffffff;
@@ -414,27 +398,23 @@ h4:hover {
 }
 
 .container-wrapper {
-    width: 100vw;
+    width: 100%;
     padding: 0 15px;
     margin: auto;
     display: flex;
     justify-content: center; 
 }
 
-/* ============================ TRENDS */
+/* ====================== TRENDS */
 
 .widget {
     margin-bottom: 4rem;
-    width: 100vw;
+    width: 100%;
 }
 
 .trends_block {
     display: flex;
 }
-
-/*.trend:not(:first-child) {
-    margin-left: 0.3%;
-}*/
 
 .trend {
     display: flex;
@@ -497,15 +477,11 @@ h4:hover {
  
 }
 
-/* ============================ MAIN */
+/* ====================== MAIN */
 
 .news_block {
     margin-right: 7.88rem;
 }
-
-/*.news:not(:first-child) {
-    margin-top: 3.75rem;
-}*/
 
 .news {
     display: flex;
@@ -526,8 +502,6 @@ h4:hover {
 }
 
 .category_list {
-    /*font-family: "OpenSans bold", sans-serif;*/
-
     display: flex;
     font-family: "OpenSans";
     font-weight: bold;
@@ -535,9 +509,9 @@ h4:hover {
 }
 
 .category_link {
-    padding-right: 20px;
-    font-size: 0.9rem;
+    font-size: 0.87rem;
     line-height: 1.6;
+    padding-right: 20px;
     color: #b59f5b;
     text-transform: uppercase;
 }
@@ -547,7 +521,7 @@ h4:hover {
 }
 
 .publication {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     line-height: 3.3;
 
     margin-top: 0.93rem;
@@ -560,25 +534,20 @@ h4:hover {
 }
 
 .publication_author {
-    /*font-family: "OpenSans bold", sans-serif;*/
     font-family: "OpenSans";
     font-weight: bold;
 }
 
 .news_description {
-    font-size: 0.9rem;
+    font-size: 0.93rem;
     line-height: 1.5;
 }
 
-/* ============================ ASIDE */
+/* ====================== ASIDE */
 
 .sidebar {
     width: 272px;
 }
-
-/*.post:not(:first-child) {
-    margin-top: 1.4rem;
-}*/
 
 .post {
     display: flex;
@@ -627,7 +596,6 @@ h4:hover {
 
     font-size: 0.8rem;
     line-height: 3;
- 
 }
 
 .field_search:focus {
@@ -646,10 +614,6 @@ h4:hover {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 1.3em;
-}
-
-.button_search:hover {
-    background-color: #323232;
 }
 
 .mailing_list {
@@ -673,7 +637,6 @@ h4:hover {
 }
 
 .mailing_list_button {
-    /*font-family: "OpenSans bold", sans-serif;*/
     width: 100%;
     height: 3.7em;
     margin-top: 1.3em;
@@ -700,7 +663,6 @@ h4:hover {
 }
 
 .tags_list {
-    /*font-family: "OpenSans bold", sans-serif;*/
     display: flex;
     flex-wrap: wrap;
 
@@ -732,7 +694,6 @@ h4:hover {
 }
 
 .categories_list {
-    /*font-family: "OpenSans bold", sans-serif;*/
     font-family: "OpenSans";
     font-weight: bold;
 }
@@ -742,7 +703,7 @@ h4:hover {
 }
 
 .categories_link {
-    font-size: 0.9rem;
+    font-size: 0.87rem;
     line-height: 2.5; 
 }
 
@@ -758,7 +719,7 @@ h4:hover {
     color: #b59f5b;
 }
 
-/* ============================ SHOP */
+/* ====================== SHOP */
 
 .shop {
     margin-top: 4rem;
@@ -774,10 +735,6 @@ h4:hover {
     display: flex;
     justify-content: center;
 }
-
-/*.product:not(:first-child) {
-    margin-left: 66px;
-}*/
 
 .product {
     display: flex;
@@ -820,7 +777,7 @@ h4:hover {
 }
 
 .product_description {
-    font-size: 0.9rem;
+    font-size: 0.93rem;
     color: #0f0d0e;
 
     padding-top: 9px;
@@ -839,7 +796,6 @@ h4:hover {
 }
 
 .product_price {
-    /*font-family: "OpenSans bold", sans-serif;*/
     display: flex;
     font-family: "OpenSans";
     font-weight: bold;
@@ -857,7 +813,6 @@ h4:hover {
 }
 
 .product_button {
-    /*font-family: "OpenSans bold", sans-serif;*/
     width: 10em;
     height: 3.42em;
     font-size: 0.8rem;
@@ -877,7 +832,7 @@ h4:hover {
     background-color: #323232;
 }
 
-/* ============================ FOOTER */
+/* ====================== FOOTER */
 
 .footer {
     margin-top: 3.75rem;
@@ -902,10 +857,6 @@ h4:hover {
     display: flex;
     justify-content: center;
 }
-
-/*.social_item:not(:last-child) {
-    margin-right: 1.9rem;
-}*/
 
 .social_item {
     margin-left: 1.9rem;
@@ -937,7 +888,6 @@ h4:hover {
 }
 
 .copyrights {
-    /*font-family: "OpenSans bold", sans-serif;*/
     font-weight: bold;
     font-size: 0.75rem;
     color: #999999;
@@ -945,14 +895,14 @@ h4:hover {
 
 
 
-/* ================================ TABLET ============================ */
+/* ====================== TABLET ====================== */
 
 @media (min-width: 768px) and (max-width: 1199px) {
 
-    /* ======================== COMMON */
+    /* ====================== COMMON */
 
     h2 {
-      font-size: 1.125rem;
+      font-size: 1.12rem;
       line-height: 1.6;
     }
 
@@ -965,7 +915,7 @@ h4:hover {
       color: #b59f5b;
     }
 
-    /* ============================ HEADER */
+    /* ====================== HEADER */
 
     .header {
         padding: 43px 0;
@@ -1041,7 +991,7 @@ h4:hover {
         padding: 104px 0;
     }
 
-    /* ============================ CONTAINER */
+    /* ====================== CONTAINER */
 
     .container {
         margin-top: 2.9rem;
@@ -1051,7 +1001,7 @@ h4:hover {
         padding: 0 35px;
     }
 
-    /* ============================ TRENDS */
+    /* ====================== TRENDS */
 
     .widget {
         margin-bottom: 3.1rem;
@@ -1061,14 +1011,6 @@ h4:hover {
         display: flex;
         flex-wrap: wrap;
     }
-
-    /*.trend:not(:first-child) {
-        margin-left: 0;
-    }*/
-
-    /*.trend:nth-child(odd) {
-        margin-right: 0.25rem;
-    }*/
 
     .trend {
         min-height: 247px;
@@ -1089,19 +1031,11 @@ h4:hover {
         padding: 31px;
     }
 
-    /* ============================ MAIN */
+    /* ====================== MAIN */
 
     .news_block {
         margin-right: 2.2rem;
     }
-
-    /*.news:not(:first-child) {
-        margin-top: 2.6rem;
-    }*/
-
-    /*.news:not(:last-child) {
-        border-bottom: 3px solid #eeeeee;
-    }*/
 
     .news {
         flex-direction: column;
@@ -1140,7 +1074,7 @@ h4:hover {
         margin-bottom: 1.5em;
     }
 
-    /* ============================ ASIDE */
+    /* ====================== ASIDE */
 
     .sidebar {
         width: 270px;
@@ -1169,7 +1103,7 @@ h4:hover {
         margin-bottom: 3.8rem;
     }
 
-    /* ============================ SHOP */
+    /* ====================== SHOP */
 
     .shop-wrapper {
         padding: 0 35px;
@@ -1178,14 +1112,6 @@ h4:hover {
     .products {
         flex-wrap: wrap;
     }
-
-    /*.product:not(:first-child) {
-        margin-left: 0;
-    }*/
-
-    /*.product:nth-child(odd) {
-        margin-right: 1.4rem;
-    }*/
 
     .product {
         width: 48%;
@@ -1204,7 +1130,7 @@ h4:hover {
         padding-top: 8px;
     }
 
-    /* ============================ FOOTER */
+    /* ====================== FOOTER */
 
     .footer {
         margin-top: 3.12rem;
@@ -1223,13 +1149,11 @@ h4:hover {
         width: 1.25rem;
         height: 1.25rem;
     }
-
-
 }
 
 
 
-/* =============================== MOBILE ============================= */
+/* ====================== MOBILE ====================== */
 
 @media (max-width: 767px) {
 
@@ -1247,7 +1171,7 @@ h4:hover {
         line-height: 1.25;
     }
 
-/* ============================ HEADER */
+/* ====================== HEADER */
 
     .header {
         min-height: 640px;
@@ -1328,7 +1252,7 @@ h4:hover {
         padding: 45px 0;
     }
 
-    /* ============================ CONTAINER */
+    /* ======================CONTAINER */
 
     .container {
         margin-top: 2.5rem;
@@ -1339,7 +1263,7 @@ h4:hover {
         flex-direction: column;
     }
 
-    /* ============================ TRENDS */
+    /* ====================== TRENDS */
 
     .widget {
         margin-bottom: 2.75rem;
@@ -1349,14 +1273,6 @@ h4:hover {
         display: flex;
         flex-direction: column;
     }
-
-    /*.trend:not(:first-child) {
-        margin-left: 0;
-    }*/
-
-    /*.trend:nth-child(odd) {
-        margin-right: 0;
-    }*/
 
     .trend {
         min-height: 232px;
@@ -1378,19 +1294,11 @@ h4:hover {
         margin-top: 3px;
     }
 
-    /* ============================ MAIN */
+    /* ====================== MAIN */
 
     .news_block {
         margin-right: 0;
     }
-
-    /*.news:not(:first-child) {
-        margin-top: 2.2rem;
-    }*/
-
-    /*.news:not(:last-child) {
-        border-bottom: 3px solid #eeeeee;
-    }*/
 
     .news {
         display: flex;
@@ -1434,7 +1342,7 @@ h4:hover {
         margin-bottom: 1.25rem;
     }   
 
-/* ============================ ASIDE */
+/* ====================== ASIDE */
 
     .sidebar {
         width: 100%;
@@ -1461,7 +1369,7 @@ h4:hover {
         margin-bottom: 2.75rem;
     }
 
-    /* ============================ SHOP */
+    /* ====================== SHOP */
 
     .shop {
         margin-top: 2.75rem;
@@ -1471,14 +1379,6 @@ h4:hover {
         display: flex;
         flex-direction: column;
     }
-
-    /*.product:not(:first-child) {
-        margin-left: 0;
-    }*/
-
-    /*.product:not(:first-child) {
-        margin-top: 1.67rem;
-    }*/
 
     .product {
         flex-direction: column;
@@ -1504,7 +1404,7 @@ h4:hover {
         padding-bottom: 30px;
     }
 
-    /* ============================ FOOTER */
+    /* ====================== FOOTER */
 
     .footer {
         margin-top: 2.69rem;
